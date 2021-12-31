@@ -57,7 +57,5 @@ model.add(tf.keras.layers.Dropout(0.2))
 model.add(Dense(32, activation="relu"))
 model.add(tf.keras.layers.BatchNormalization())
 model.add(Dense(7, activation="softmax"))
-
 model.summary()
-
 model.load_weights("best_model.h5")
