@@ -8,6 +8,10 @@ Play with Skin Cancer Images here: (https://skin-cancer-detection-cnn.herokuapp.
 
 ![alt_text](https://github.com/charanhu/Skin-Cancer-Detection-MNIST/blob/main/model_architecture.png)
 
+## Data
+
+https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
+
 
 ## How to Run the App:
 
