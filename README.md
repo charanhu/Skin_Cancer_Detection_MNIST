@@ -63,7 +63,8 @@ This contains the definition of the CNN model.
 ## best_model.h5:
 Contains the weights of the best model.
 
-## Definition of the CNN model
+## CNN model summary:
+
 ```python
 Model: "sequential"
 _________________________________________________________________
