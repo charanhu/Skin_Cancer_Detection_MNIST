@@ -1,6 +1,16 @@
 # The primary goal of this work is to build up a Model of Skin Cancer Detection System utilizing Machine Learning Algorithms. After experimenting with many different architectures for the CNN model It is found that adding the BatchNormalization layer after each Dense, and MaxPooling2D layer can help increase the validation accuracy. In future, a mobile application can be made.
 
 # reference: https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000/discussion/183083
+# Data: https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
+# https://keras.io/api/models/sequential/
+# https://keras.io/api/layers/core_layers/dense/
+# https://keras.io/api/layers/merging_layers/add/
+# https://keras.io/api/layers/convolution_layers/convolution2d
+# https://keras.io/api/layers/convolution_layers/convolution2d
+# https://www.tensorflow.org/api_docs/python/tf/keras/layers/BatchNormalization
+
+
+
 import tensorflow as tf
 from tensorflow.keras.layers import Conv2D, Flatten, Dense, MaxPool2D
 from tensorflow.keras.models import Sequential
